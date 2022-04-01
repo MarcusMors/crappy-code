@@ -1,0 +1,26 @@
+/* requirements
+	- Tabla 50% de la pagina
+	- Lineas entre filas y columnas
+	- primera fila (cabecera) fondo gris
+	- Añadir padding */
+
+table,
+tr,
+th {
+	padding: 15px;
+}
+
+table {
+	height: 50vh;
+}
+
+tr,
+th,
+td {
+	border: 1px solid;
+	border-color: red;
+}
+
+th {
+	background-color: gray;
+}
